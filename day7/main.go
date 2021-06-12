@@ -1,9 +1,10 @@
 package main
 
-import ( 
+import (
    "fmt"
+   "./animals"
 )
 
 func main() {
-  fmt.Println("Hello world")
+  fmt.Println(animals.ElepahntFeed())
 }
